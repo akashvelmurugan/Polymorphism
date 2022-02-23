@@ -8,10 +8,13 @@ public class OperatorOverloading {
 	private void number(int i,int j) {
 		System.out.println(i+j);
 	}
-
+	public void numberEquallOrNot(int fisrtNumber,int SecondNumber) {
+		System.out.println(fisrtNumber==SecondNumber);
+	}
 	public static void main(String[] args) {
 		OperatorOverloading operatorOverloading= new OperatorOverloading();
 		operatorOverloading.string("java", "program");
 		operatorOverloading.number(10, 20);
+		operatorOverloading.numberEquallOrNot(12, 12);
 	}
 }
