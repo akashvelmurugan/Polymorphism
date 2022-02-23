@@ -1,4 +1,4 @@
-package com.polymophism;
+package com.methodoverriding;
 
 public class Polymorpism {
 

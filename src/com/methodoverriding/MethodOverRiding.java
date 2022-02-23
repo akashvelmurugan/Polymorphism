@@ -1,4 +1,4 @@
-package com.polymophism;
+package com.methodoverriding;
 
 public class MethodOverRiding extends Polymorpism{
 @Override
@@ -10,8 +10,6 @@ System.out.println("Ram GB");
 System.out.println("Android 12");
 }
 
-	
-	
 	public static void main(String[] args) {
 		MethodOverRiding methodOverRiding = new MethodOverRiding();
 		methodOverRiding.mobile();

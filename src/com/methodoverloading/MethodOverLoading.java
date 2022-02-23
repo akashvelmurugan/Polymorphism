@@ -1,4 +1,4 @@
-package com.polymophism;
+package com.methodoverloading;
 
 public class MethodOverLoading {
 	private void studentName(String name) {
