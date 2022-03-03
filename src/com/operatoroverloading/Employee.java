@@ -1,5 +1,4 @@
 package com.operatoroverloading;
-
 public class Employee {
 	public void employeeDetails(String firstEmpName) {
 		System.out.println(firstEmpName);
